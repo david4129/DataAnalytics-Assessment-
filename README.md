@@ -39,7 +39,10 @@ For Question 2, we make use of common table expressions to improve readability a
 <p> We also make use of common table expressions <b>customer_transactions</b>, <b>tenure_calc</b> and <b>clv_estimate</b> </p> as well as <b>inner joins</b>. We start our analysis by creating CTE customer_transactions which makes use of the <b>Group by</b> statement to obtain the transaction amount by every user. On the other hand the <b>tenure_calc</b> stores the period of time from when the customer joined us. FInally, we select the required columns using the <b>Select</b> statement.
 
 <a name = chall>  </a>
-
-
+## Challenges
+As exciting as the project was, it didn't come without challenges. The challenges are outlined as follows:
+* Dataset Import: I had issues with the sql code that is responsible for generating the dataset. I had errors as MySQl client was always losing connection to the server. I fixed it by increasing timeout of my client side.
+* SQL Code readability: Questions 2 - 4 were really complex and the codes were quite messy at first so I had to use common table expressions to improve readability and performance efficiency.
+* Zero Divisibility Error: I encountered quite a bit of a roadblock when working on question 4, some denominators where 0 so I was getting an error. I fixed this by using the <b>NULLIF</b> statement.
 
 
