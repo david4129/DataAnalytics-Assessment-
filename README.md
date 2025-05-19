@@ -9,7 +9,7 @@
   
 <a name = intro>  </a>
 ## Introduction
-<p> The primary objective of this project is to analyze customer transactions and activities within the organization using **MySQL** as the core tool for data processing and analysis. </p>
+<p> The primary objective of this project is to analyze customer transactions and activities within the organization using <b>MYSQl</b> as the core tool for data processing and analysis. </p>
 
 <p> The project focuses on addressing four key questions, which cover areas such as:
 
